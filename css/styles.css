@@ -1,0 +1,174 @@
+body,div,dl,li,dt,dd,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+  margin: 0;
+  padding: 0
+}
+
+ul,ol {
+  margin: 0;
+  padding-left: 25px
+}
+
+li {
+  list-style-position: outside
+}
+
+body {
+  font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.9em
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 13px
+}
+
+h3 {
+  font-size: 1.2em;
+  text-transform: uppercase
+}
+
+h4 {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 13px
+}
+  
+h5 {
+  font-size: 1em
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #666;
+  margin-bottom: 1em
+}
+
+#header {
+  width: 910px;
+  height: 140px;
+  margin: 50px auto 0 auto;
+  padding:0 20px;
+}
+
+#header .title {
+  font-family: Georgia,"Times New Roman",Times,serif;
+  color: #111;
+  font-size: 95px;
+  line-height: 1em;
+}
+
+#header .subtitle {
+  font-family: Georgia,"Times New Roman",Times,serif;
+  color: #111;
+  font-size: 20px;
+  line-height: 1em;
+  margin: 22px 0 0 0;
+}
+
+#header .badge {
+  float: right; 
+  position: relative; 
+  top: -70px; 
+  right: -50px; 
+  border: 0;
+  margin-bottom: -70px;
+}
+
+#main {
+  width: 910px;
+  position: relative;
+  margin: 0 auto 0 auto;
+  padding: 0 20px;
+}
+
+#main ul.audience li {
+  list-style-image: url('/images/comment_bubble.png');
+  list-style-position:outside;
+}
+
+#main ul.starting li {
+  list-style-image: url('/images/info.png');
+  list-style-position:outside;
+}
+
+
+.maincolumns {
+  width: 910px;
+  float: left
+}
+
+.maincolumns .column {
+  float: left;
+  width: 267px;
+  margin-right: 50px
+}
+
+.maincolumns .lastcolumn {
+  float: left;
+  width: 267px
+}
+
+.maincolumns .widecolumn {
+  float: left;
+  width: 584px;
+  margin-right: 50px
+}
+
+#features {
+  margin: 40px 0 70px 0;
+  float: left;
+  width: 910px
+}
+
+#features .column {
+  float: left;
+  width: 200px;
+  margin-right: 35px
+}
+
+#features .lastcolumn {
+  float: left;
+  width: 200px
+}
+
+#features img { 
+  float: left;
+  margin-right: 15px
+}
+
+#features p {
+  margin-top:2em
+}
+
+#features p strong { 
+  font-size:1em;
+  text-transform:uppercase;
+  display:block
+}
+
+#screenshots { 
+  width:267px;
+  height:195px;
+  background:url('/images/noise_pattern.gif')
+}
+
+#bulletliststop {
+  background:url('/images/wideleafes_black.gif');
+  height:51px;
+  margin:-51px auto 0 auto
+}
+
+#footer {
+  color: #666;
+  margin:0 auto 20px auto;
+  text-align:center;
+  clear:both
+}
