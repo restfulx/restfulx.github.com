@@ -1,4 +1,4 @@
-body,div,dl,li,dt,dd,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+body,div,dl,li,dt,dd,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,th,td {
   margin: 0;
   padding: 0
 }
@@ -46,11 +46,22 @@ h5 {
 }
 
 hr {
+  width: 910px;
   border: none;
+  margin-top: 2em;
+  margin-bottom: 0em;
   border-bottom: 1px solid #666;
-  margin-bottom: 1em
 }
 
+blockquote {
+  font-size: 1.3em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 400px;
+	margin: 1em 20px;
+	padding-left: 50px;
+	background: url('/images/quote.gif') no-repeat;
+}
+    
 #header {
   width: 910px;
   height: 140px;
@@ -99,7 +110,6 @@ hr {
   list-style-position:outside;
 }
 
-
 .maincolumns {
   width: 910px;
   float: left
@@ -123,7 +133,7 @@ hr {
 }
 
 #features {
-  margin: 40px 0 40px 0;
+  margin: 40px 0 20px 0;
   float: left;
   width: 910px;
 }
@@ -154,20 +164,43 @@ hr {
   display:block
 }
 
-#screenshots { 
+#detailscontainer {
+  float: left;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+#details {
+  width: 910px;
+  margin: 0 auto 0 auto;
+}
+
+#details .maincolumns .widecolumn {
+  float: left;
+  width: 500px;
+  margin-right: 50px
+}
+
+#details .maincolumns .lastcolumn {
+  float: left;
+  width: 350px
+}
+
+#book img {
+  float: left; 
+  margin-right: 10px; 
+  border: 0px;
+}
+
+#screencasts { 
   width:267px;
   height:195px;
   background:url('/images/noise_pattern.gif')
 }
 
-#bulletliststop {
-  background:url('/images/wideleafes_black.gif');
-  height:51px;
-  margin:-51px auto 0 auto
-}
-
 #footer {
-  color: #666;
+  color: #000;
   margin:0 auto 20px auto;
   text-align:center;
   clear:both
