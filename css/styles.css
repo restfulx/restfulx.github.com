@@ -123,9 +123,9 @@ hr {
 }
 
 #features {
-  margin: 40px 0 70px 0;
+  margin: 40px 0 40px 0;
   float: left;
-  width: 910px
+  width: 910px;
 }
 
 #features .column {
