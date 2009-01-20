@@ -1,4 +1,4 @@
-body,div,dl,li,dt,dd,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,th,td {
+* {
   margin: 0;
   padding: 0
 }
@@ -26,7 +26,7 @@ h2 {
   font-size: 1.3em;
   text-transform: uppercase;
   font-weight: bold;
-  margin-bottom: 13px
+  margin-bottom: 13px;
 }
 
 h3 {
