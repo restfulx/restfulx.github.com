@@ -179,13 +179,13 @@ blockquote {
 
 #details .maincolumns .widecolumn {
   float: left;
-  width: 500px;
+  width: 450px;
   margin-right: 50px
 }
 
 #details .maincolumns .lastcolumn {
   float: left;
-  width: 350px
+  width: 400px
 }
 
 #book img {
