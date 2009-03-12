@@ -62,24 +62,31 @@ blockquote {
 	padding-left: 50px;
 	background: url('/images/quote.gif') no-repeat;
 }
+
+#headercontainer {
+  background-color: #000;
+  width: 100%;
+  float: left;
+  margin-bottom: 40px;
+}
     
 #header {
   width: 910px;
-  height: 140px;
+  height: 200px;
   margin: 50px auto 0 auto;
   padding:0 20px;
 }
 
 #header .title {
   font-family: Georgia,"Times New Roman",Times,serif;
-  color: #111;
+  color: #FFF;
   font-size: 95px;
   line-height: 1em;
 }
 
 #header .subtitle {
   font-family: Georgia,"Times New Roman",Times,serif;
-  color: #111;
+  color: #FFF;
   font-size: 20px;
   line-height: 1em;
   margin: 22px 0 0 0;
@@ -172,7 +179,7 @@ blockquote {
   margin-bottom: 20px;
 }
 
-#details, #history, #extras {
+#details, #history, #extras, #support {
   width: 910px;
   margin: 0 auto 0 auto;
 }
@@ -209,17 +216,13 @@ blockquote {
   border: 0px;
 }
 
-#history {
+#support, #history {
   margin-top: 40px;
 }
 
-#screencasts { 
-  width:267px;
-  height:195px;
-  background:url('/images/noise_pattern.gif')
-}
-
 #footer {
+  border-top: 1px solid #999;
+  padding-top: 20px;
   color: #333;
   margin:0 auto 20px auto;
   text-align:center;
